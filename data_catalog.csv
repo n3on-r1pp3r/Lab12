@@ -1,0 +1,3 @@
+filename,path,extension,size_bytes,modified,rows,columns,column_names,column_types,description
+data_catalog.py,data_catalog.py,.py,2111,2025-11-21 12:07:21.332145,,,,,Файл проекта
+vgsales.csv,vgsales.csv,.csv,1355791,2025-10-27 10:03:21.275483,16599.0,11.0,"['Rank', 'Name', 'Platform', 'Year', 'Genre', 'Publisher', 'NA_Sales', 'EU_Sales', 'JP_Sales', 'Other_Sales', 'Global_Sales']","{'Rank': 'float64', 'Name': 'object', 'Platform': 'object', 'Year': 'float64', 'Genre': 'object', 'Publisher': 'object', 'NA_Sales': 'float64', 'EU_Sales': 'float64', 'JP_Sales': 'float64', 'Other_Sales': 'float64', 'Global_Sales': 'float64'}",Файл проекта
