@@ -2,7 +2,6 @@ import pandas as pd
 
 INPUT_FILE = "vgsales.csv"        # ← сюда подставь свой файл
 OUTPUT_FILE = "data/vgsales_clean.csv"
-REPORT_FILE = "data/cleaning_report.txt"
 
 def clean_dataset():
     # Загружаем
@@ -41,13 +40,10 @@ def clean_dataset():
     # Сохраняем очищенный датасет
     df.to_csv(OUTPUT_FILE, index=False)
 
-    # Записываем отчёт
-    with open(REPORT_FILE, "w", encoding="utf-8") as f:
-        f.write("\n".join(report_lines))
 
     print("Очистка завершена ✔")
     print(f"Очищенный файл: {OUTPUT_FILE}")
-    print(f"Отчёт: {REPORT_FILE}")
 
 if __name__ == "__main__":
+
     clean_dataset()
